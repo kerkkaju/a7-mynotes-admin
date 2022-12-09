@@ -151,7 +151,7 @@ class Logout:
 
 class Signup:
     def GET(self):
-        return render.signup(session.is_admin)
+        return render.signup()
     def POST(self):
         i = web.input()
         id=db.insert('users', name=i.name, username=i.uname, \
