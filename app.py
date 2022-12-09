@@ -1,4 +1,3 @@
-# cd C:\Users\kerkkaju\Documents\GitHub\webdev\webpy\assignments\a7-mynotes-admin
 import web
 render = web.template.render('templates/')
 web.config.debug = False # To make sessions work
